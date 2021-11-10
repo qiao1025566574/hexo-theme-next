@@ -118,8 +118,8 @@ darkmode: false
 menu:
   home: / || fa fa-home
   #about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -129,6 +129,16 @@ menu:
 menu_settings:
   icons: true
   badges: false
+
+menu_icons:
+  enable: true
+  # Icon Mapping.
+  home: home
+  #about: user
+  categories: th
+  tags: tags
+  archives: archive
+  #commonweal: heartbeat
 
 
 # ---------------------------------------------------------------
